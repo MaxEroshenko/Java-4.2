@@ -1,8 +1,7 @@
 public class BmiService {
-    public int calculate(double weigth, int growth) {
-        double bmi = growth / (weigth * weigth);
-        System.out.println(bmi);
+    public double calculate(double weight, int growth) {
+        double bmi = growth / (weight * weight);
 
-        return 0;
+        return bmi;
     }
 }
